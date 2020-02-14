@@ -37,8 +37,11 @@
   <project name="sel4runtime.git" path="projects/sel4runtime" remote="sel4proj" revision="7b71e82ca6802a712475d0e523e689f190303bd3" upstream="master"/>
   <project name="util_libs.git" path="projects/util_libs" revision="31026b804aa8652ecf0da592cb3ce73e113d28bd" upstream="master"/>
 
-  <!-- Add in my project: -->
+  <!-- Add my projects: -->
   <remote fetch="https://github.com/gaj7" name="gaj7"/>
   <project name="attarch.git" path="projects/vm/apps/attarch" remote="gaj7"/>
+  
+  <remote fetch="https://github.com/ku-sldg" name "sldg"/>
+  <project name="cakeml-am.git" path="projects/vm/apps/attarch/AM" remote="sldg"/>
 
 </manifest>
