@@ -39,9 +39,9 @@
 
   <!-- Add my projects: -->
   <remote fetch="https://github.com/gaj7" name="gaj7"/>
-  <project name="attarch.git" path="projects/vm/apps/attarch" remote="gaj7"/>
+  <project name="attarch.git" path="projects/vm/apps/attarch" revision="uav" remote="gaj7"/>
   
   <remote fetch="https://github.com/ku-sldg" name="sldg"/>
-  <project name="cakeml-am.git" path="projects/vm/apps/attarch/AM" remote="sldg"/>
+  <project name="cakeml-am.git" path="projects/vm/apps/attarch/AM" revision="uav" remote="sldg"/>
 
 </manifest>
